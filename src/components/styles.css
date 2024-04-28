@@ -1,0 +1,37 @@
+/* styles.css */
+.card {
+    width: 300px; /* Set fixed width */
+    height: 350px; /* Set fixed height */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%; /* Make image fill the width of the card */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .card-info {
+    padding: 16px;
+  }
+  
+  .card-info h2 {
+    margin-top: 0;
+  }
+  
+  .card-info p {
+    margin-bottom: 0;
+  }
+  
+  .homepage {
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+  
